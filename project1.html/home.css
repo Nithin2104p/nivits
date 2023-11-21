@@ -1,0 +1,347 @@
+button {
+    height: 100px;
+    position: absolute;
+    left: 50%;
+}
+
+.footer {
+    position: relative;
+    bottom: 400px;
+}
+
+.content h1 {
+    font-size: 230px;
+
+}
+
+.content {
+    margin-bottom: 0px;
+
+}
+
+.nivi {
+    display: flex;
+    justify-content: left;
+}
+
+.nivi img {
+    border-radius: 5px;
+}
+
+.nivi h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nivi span {
+    color: rgb(68, 207, 253);
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#ts {
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul li {
+    list-style: none;
+
+
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#home ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 242, 251);
+    position: relative;
+    background: linear-gradient(to right, #152126, rgb(4, 71, 137), #016263);
+    min-height: 140vh;
+}
+
+.explore button {
+    position: absolute;
+    left: 40%;
+    background: transparent;
+    color: white;
+    border: solid 1px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.2s;
+    box-shadow: 0 0 10px;
+    border-radius: 5px;
+}
+
+.pbr {
+    text-align: center;
+}
+
+.pbr img {
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+
+}
+
+
+.pbr h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flow-root;
+
+
+}
+
+.explore button:hover {
+    background: transparent;
+    letter-spacing: 0.25em;
+    color: #f7f7fc;
+    box-shadow: 0 0 30px;
+    border-radius: 15px;
+
+
+}
+
+.content {
+    color: white;
+    position: absolute;
+    bottom: 30;
+    left: 0;
+}
+
+.content h1 {
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+.content {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.content h3 {
+    position: relative;
+    top: -130px;
+}
+
+footer {
+    position: relative;
+    top: 700px;
+    bottom: 10%;
+    background: linear-gradient(to right, #1c2b30, #033970, #015b5d);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 50px;
+}
+
+.col img {
+    border-top-left-radius: 30px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+#f1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.li {
+    text-decoration: none;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+
+}
+
+.copy {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.h32 span {
+    color: rgb(68, 207, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.links i {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.links i:hover {
+    color: white;
+    background-color: transparent;
+
+}
+
+@media screen and (max-width:600px) {
+    .nivi h1 {
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 100px;
+
+    }
+
+    .nav {
+        display: grid;
+    }
+
+    .home {
+        margin-left: 10px;
+    }
+
+    .pbr h2 {
+        font-size: 29px;
+        display: flex;
+    }
+
+    .pbr img {
+        position: relative;
+        bottom: 100px;
+        float: left;
+
+    }
+
+    button {
+        position: absolute;
+        float: left;
+        width: 300px;
+        height: 80px;
+        font-size: 10px;
+
+
+    }
+
+    footer {
+        position: relative;
+        right: 20px;
+    }
+
+    #poke {
+        position: relative;
+        margin-top: -10px;
+    }
+
+    .links a {
+        position: relative;
+        top: 40px;
+        right: 50px;
+    }
+
+    #f1 {
+        position: relative;
+        left: 15px;
+    }
+
+    button a {
+        color: white;
+        text-decoration: none;
+    }
+
+    button:hover {
+        border: 3px solid white;
+
+    }
+
+
+}
+
+@media screen and (min-width:600px) {
+
+    .nivi h1 {
+        font-size: 25px;
+    }
+
+    .pbr h2 {
+        font-size: 30px;
+    }
+
+    ul li a {
+        font-size: 18px;
+    }
+
+    .content h1 {
+        font-size: 230px;
+    }
+}

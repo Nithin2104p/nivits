@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="veccanteen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <section class="se1">
+
+        <nav class="nav">
+            <div class="nivi">
+                <h1><img src="nivi-logo-jpj.jpg" alt="logo" height="50x" width="50px"> <span>NI-VI</span>
+
+                    <h1 id="ts">TS</h1>
+                </h1>
+
+            </div>
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+
+
+            </ul>
+        </nav>
+        <div class="container">
+            <header>
+                <h1>cart</h1>
+                <div class="iconcart">
+                    <img src="cart.logo.png" alt="" height="40px" onclick="toggleCart()">
+                    <div class="totalquantity" id="quantity"></div>
+                    <div class="quant" id="quantity" onclick="toggleCart()">cart</div>
+                </div>
+            </header>
+            <div class="cart hidden" id="mydiv">
+                <h2>Cart</h2>
+                <i id="cart04" class="fa-solid fa-xmark" onclick="toggleCart()"></i>
+
+                <hr>
+                <ol id="hello"></ol>
+                <h3>checkout</h3>
+            </div>
+        </div>
+
+
+
+
+        <div class="canteen">
+
+
+            <h1><img src="canteen.logo.jpg" alt="" height="80px" width="80px"><span id="st">Vec
+                    Canteen</span></h1>
+
+        </div>
+        <div class="text">
+            <h2 id="love">Flavours inspired by seasons</h2>
+            <h3>where every flavour tells a story</h3>
+        </div>
+        <div class="traditional">
+            <h2>Traditional and Hygine</h2>
+            <span class="cc4">
+                <h3>come and have a delightful experience</h3>
+                <h4>feel the joy of mouthwatering food only at @veccanteen </h4>
+                <br>
+                <br><br><br>
+
+            </span>
+        </div>
+    </section>
+
+    <div class="menu">
+        <h1>Menu</h1>
+
+    </div>
+    <div id="menu">
+        <div class="menul">
+            <ul>
+                <li>
+                    <h2>Morning</h2>
+                    <h2><img src="idli plate.jpg" alt="" height="130px"><br>Idly - 20/-
+                        <br><button value="add to cart"
+                            onclick="add('Idly--20/-'); alert('This item will be added to your cart!!')"> add
+                            to
+                            cart</button></h1>
+                        <h2><img src="dosa plate.jpg" alt="" height="120px"><br> dosa - 25/-<br><button
+                                value="add to cart"
+                                onclick="add('Dosa - 25/-'); alert('This item will be added to your cart!!')">add to
+                                cart</button>
+                            </h1>
+                            <h2><img src="puri plate.jpg" alt="" height="130px"><br>puri - 30/-<br><button
+                                    value="add to cart"
+                                    onclick="add('puri--30/-') ;alert('This item will be added to your cart!!') ">add to
+                                    cart</button></h1>
+                                <h2><img src="vada plate.jpg" alt="" height="130px" width="200px"><br>vada -
+                                    10/-<br><button value="add to cart"
+                                        onclick="add('vada--10/-') ;alert('This item will be added to your cart!!')">add
+                                        to
+                                        cart</button></h1>
+                                    <h2><img src="parota plate.webp" height="120px" alt=""><br>parota -
+                                        30/-<br><button value="add to cart"
+                                            onclick="add('parota--30/-');alert('This item will be added to your cart!!')">add
+                                            to cart</button></h1>
+                                        <h2><img src="chapathi plate.jpg" height="130px" width="200px"
+                                                alt=""><br>chapathi -
+                                            25/-<br><button value="add to cart"
+                                                onclick="add('chapathi--25/-') ;alert('This item will be added to your cart!!')">add
+                                                to
+                                                cart</button></h1>
+
+
+                </li>
+            </ul>
+        </div>
+        <div class="menum">
+            <ul>
+                <li>
+                    <h2>Afternoon</h2>
+                    <h2><img src="fried rice plate.jpeg" alt="" height="130px" width="200px"><br>fried rice -
+                        100/-
+                        <br><button value="add to cart"
+                            onclick="add('fried rice - 100/-') ;alert('This item will be added to your cart!!')"> add to
+                            cart</button></h1>
+                        <h2><img src="noodles plate.jpeg" height="120px" width="200px" alt=""><br> noodles -
+                            100/-<br><button value="add to cart"
+                                onclick="add('noodles - 100/-');alert('This item will be added to your cart!!')">add to
+                                cart</button>
+                            </h1>
+                            <h2><img src="meals plate.jpeg" height="120px" width="200px" alt=""><br>meals -
+                                70/-<br><button value="add to cart"
+                                    onclick="add('meals - 70/-');alert('This item will be added to your cart!!')">add to
+                                    cart</button></h1>
+                                <h2><img src="biriyani plate.jpg" height="120px" width="200px" alt=""><br>biriyani -
+                                    100/-<br><button value="add to cart" onclick="add('biriyani - 100/-');alert('This item will be added to your cart!!')
+                                    ">add
+                                        to
+                                        cart</button></h1>
+                                    <h2><img src="lemon rice plate.jpg" height="120px" alt=""><br>lemon rice -
+                                        50/-<br><button value="add to cart"
+                                            onclick="add('lemon rice-50/-');alert('This item will be added to your cart!!')">add
+                                            to
+                                            cart</button></h1>
+                                        <h2><img src="zeera rice plate.jpg" height="120px" width="200px"
+                                                alt=""><br>zeera rice -
+                                            50/-<br><button value="add to cart"
+                                                onclick="add('zeera rice--50/-');alert('This item will be added to your cart!!') ">add
+                                                to cart</button></h1>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="menum">
+            <button id="gotocart" value="add to cart" onclick="toggleCart()">Go
+                to cart</button>
+            <ul>
+
+                <li>
+                    <h2>Evening</h2>
+                    <h2><img src="bajji plate.jpg" height="120px" width="200px" alt=""><br>bajji - 20/-
+                        <br><button value="add to cart"
+                            onclick="add('bajji--20/-');alert('This item will be added to your cart!!')"> add to
+                            cart</button></h1>
+                        <h2><img src="dosa plate.jpg" height="120px" alt=""><br> dosa - 25/-<br><button
+                                value="add to cart"
+                                onclick="add('Dosa - 25/-');alert('This item will be added to your cart!!')">add to
+                                cart</button>
+                            </h1>
+                            <h2><img src="bonda plate.jpg" height="120px" width="200px" alt=""><br>bonda -
+                                30/-<br><button value="add to cart"
+                                    onclick="add('bonda--30/-');alert('This item will be added to your cart!!')">add to
+                                    cart</button></h1>
+                                <h2><img src="vada plate.jpg" height="120px" width="200px" alt=""><br>vada -
+                                    10/-<br><button value="add to cart"
+                                        onclick="add('vada--10/-');alert('This item will be added to your cart!!')">add
+                                        tocart</button></h1>
+
+                                    <h2><img src="parota plate.webp" height="120px" width="200px" alt=""><br>parota -
+                                        30/-<br><button value="add to cart"
+                                            onclick="add('parota--30/-');alert('This item will be added to your cart!!')">add
+                                            to cart</button></h1>
+                                        <h2><img src="chapathi plate.jpg" height="120px" width="200px"
+                                                alt=""><br>chapathi -
+                                            25/-<br><button value="add to cart"
+                                                onclick="add('chapathi--25/-');alert('This item will be added to your cart!!')">add
+                                                to cart</button></h2>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section>
+        <div class="bg2">
+            <div class="text2">
+                <h1></h1>
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+        <div class="menu">
+            <h1>Drinks&chips</h1>
+        </div>
+        <div id="menu">
+            <div class="menul">
+                <ul>
+                    <li>
+                        <h2>Drinks</h2>
+                        <h2><img src="sprite.jpeg" height="120px" width="200px" alt=""><br>Sprite - 20/-
+                            <br><button value="add to cart"
+                                onclick="add('sprite--20/-');alert('This item will be added to your cart!!')"> add to
+                                cart</button></h1>
+                            <h2><img src="badam milk.jpeg" height="120px" width="200px" alt=""><br>badam milk -
+                                25/-<br><button value="add to cart"
+                                    onclick="add('badam milk--25/-');alert('This item will be added to your cart!!')">add
+                                    to
+                                    cart</button></h1>
+                                <h2><img src="sting.jpg" height="120px" width="200px" alt=""><br>sting -
+                                    20/-<br><button value="add to cart"
+                                        onclick="add('sting--20/-');alert('This item will be added to your cart!!')">add
+                                        to cart</button></h1>
+                                    <h2><img src="thumbsup black.jpeg" height="150px" width="200px" alt=""><br>
+                                        ThumbsUp- 20/-<br><button value="add to cart"
+                                            onclick="add('ThumsUp - 20/-');alert('This item will be added to your cart!!')">add
+                                            to
+                                            cart</button>
+                                        </h1>
+                                        <h2><img src="water bottle.jpeg" height="120px" width="200px" alt=""><br>water
+                                            bottle -
+                                            20/-<br><button value="add to cart"
+                                                onclick="add('water bottle--20/-');alert('This item will be added to your cart!!')">add
+                                                to
+                                                cart</button></h1>
+                                            <h2><img src="soda.jpeg" height="120px" width="150px" alt=""><br>soda -
+                                                20/-<br><button value="add to cart"
+                                                    onclick="add('soda--20/-');alert('This item will be added to your cart!!')">add
+                                                    to
+                                                    cart</button></h1>
+
+
+                    </li>
+                </ul>
+            </div>
+            <div class="menum">
+                <ul>
+                    <li>
+                        <h2>chips</h2>
+                        <h2><img src="lays.jpeg" height="120px" width="200px" alt=""><br>RS.5/-
+                            <br><button value="add to cart"
+                                onclick="add('add on--5/-');alert('This item will be added to your cart!!')"> add to
+                                cart</button></h1>
+                            <h2><img src="lays.jpeg" height="120px" width="200px" alt=""><br>
+                                Rs.10/-<br><button value="add to cart"
+                                    onclick="add('add on - 10/-');alert('This item will be added to your cart!!')">add
+                                    to
+                                    cart</button>
+                                </h1>
+                                <h2><img src="lays.jpeg" height="120px" width="200px" alt=""><br>rs.
+                                    20/-<br><button value="add to cart"
+                                        onclick="add('add on - 20/-');alert('This item will be added to your cart!!')">add
+                                        to
+                                        cart</button></h1>
+                                    <h2><img src="lays.jpeg" height="120px" width="200px" alt=""><br>Rs.25/-<br><button
+                                            value="add to cart"
+                                            onclick="add('add on - 25/-');alert('This item will be added to your cart!!')">add
+                                            to
+                                            cart</button></h1>
+                                        <h2><img src="lays.jpeg" height="120px" width="200px" alt=""><br>Rs.
+                                            30/-<br><button value="add to cart"
+                                                onclick="add('add on- 30/-');alert('This item will be added to your cart!!')">add
+                                                to
+                                                cart</button></h1>
+                                            <h2><img src="lays.jpeg" height="120px" width="200px" alt=""><br>Rs.
+                                                35/-<br><button value="add to cart"
+                                                    onclick="add('add on- 35/-');alert('This item will be added to your cart!!')">add
+                                                    to
+                                                    cart</button></h1>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="bg3">
+            <div class="text2">
+                <footer class="f146">
+                    <footer class="footer">
+                        <div class="col">
+                            <img src="nivi-logo-jpj.jpg" alt="logo" height="70x" width="70px">
+                            <div class="li">
+
+
+                            </div>
+
+
+                            <p id="f1">join us to make a better future</p>
+
+                        </div>
+                        <div class="links">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <hr>
+                        <p class="copy">Nivi © 2023 - All Rights Reserved</p>
+
+
+
+
+
+                    </footer>
+                </footer>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="veccanteen.js"></script>
+
+</body>
+
+</html>

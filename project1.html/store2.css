@@ -1,0 +1,365 @@
+.nivi {
+    display: flex;
+    justify-content: left;
+}
+
+.nivi img {
+    border-radius: 5px;
+}
+
+.nivi h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nivi span {
+    color: rgb(68, 207, 253);
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#ts {
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul li {
+    list-style: none;
+
+
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#home ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.header a:hover {
+    color: rgb(43, 122, 226);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 242, 251);
+    position: relative;
+    background: linear-gradient(to right, rgb(18, 19, 26), #033a60, rgb(5, 82, 88));
+    min-height: 140vh;
+}
+
+.pbr {
+    text-align: center;
+}
+
+.pbr img {
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+}
+
+
+
+.pbr h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flow-root;
+    text-align: center;
+
+
+}
+
+.vits h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    width: auto;
+    background: linear-gradient(to right, rgb(13, 13, 21), #022e4e, rgb(1, 55, 59));
+
+}
+
+#a12 {
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+
+.cc {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vitcanteen {
+    text-align: start;
+    border: solid 1px;
+    padding: 50px;
+    overflow: hidden;
+    width: 200px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.vitstationary {
+    border: solid 1px;
+    padding: 50px;
+    overflow: hidden;
+    width: 200px;
+    margin: 50px;
+    border-radius: 10px;
+
+}
+
+.vitcanteen a {
+    color: white;
+    text-align: center;
+
+}
+
+.vitstationary a {
+    color: white;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(to right, rgb(0, 0, 0), #012c4a, rgb(1, 58, 62));
+    border-top-left-radius: 50px;
+
+}
+
+.col img {
+    border-top-left-radius: 30px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+#f1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.li {
+    text-decoration: none;
+}
+
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+
+}
+
+.links {
+    display: flex;
+    margin: 10px;
+    justify-content: right;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.copy {
+    text-align: center;
+}
+
+.vitcanteen h2 {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vitstationary h2 {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vitcanteen a {
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vitstationary a {
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links i {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.links i:hover {
+    color: white;
+    background-color: black;
+
+}
+
+
+
+@media screen and (max-width:600px) {
+    .nivi h1 {
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: 80px;
+
+    }
+
+    .nav {
+        display: grid;
+    }
+
+    .home {
+        margin-left: 10px;
+    }
+
+    .pbr h2 {
+        font-size: 29px;
+        display: flex;
+        margin: -10px;
+    }
+
+    .pbr img {
+        position: relative;
+        bottom: 100px;
+        float: left;
+        margin: 10px;
+
+    }
+
+    ul li a {
+        position: relative;
+        right: 50px;
+
+    }
+
+    .vits h1 {
+        width: 95%;
+    }
+
+    .vitcanteen {
+        margin: 1px;
+
+    }
+
+    .vitcanteen img {
+        position: relative;
+        bottom: 20px;
+        right: 40px;
+    }
+
+
+    .vitstationary img {
+        position: relative;
+        bottom: 20px;
+        right: 40px;
+    }
+
+    .vitstationary {
+        margin: 1px;
+    }
+
+    .vitcanteen h2 {
+        position: relative;
+        right: 30px;
+    }
+
+    .vitcanteen a {
+        display: flex;
+        width: 90%;
+        position: relative;
+        right: 20px;
+        padding: 10px;
+    }
+
+    .vitstationary h2 {
+        position: relative;
+        right: 40px;
+    }
+
+    .vitstationary a {
+        display: flex;
+        width: 100%;
+        position: relative;
+        right: 20px;
+        padding: 10px;
+    }
+
+    .vits {
+        position: relative;
+        right: 8px;
+    }
+
+    footer {
+        position: relative;
+        right: 10px;
+    }
+
+    #poke {
+        position: relative;
+        margin-top: -10px;
+    }
+
+    .links a {
+        position: relative;
+        top: 40px;
+        right: 10px;
+    }
+
+    #f1 {
+        position: relative;
+        left: 15px;
+    }
+
+}

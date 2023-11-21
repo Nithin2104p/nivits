@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vitstationery2104.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <section class="se1">
+
+        <nav class="nav">
+            <div class="nivi">
+                <h1><img src="nivi-logo-jpj.jpg" alt="logo" height="50x" width="50px"> <span>NI-VI</span>
+                    <h1 id="ts">TS</h1>
+                </h1>
+
+            </div>
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+
+
+            </ul>
+        </nav>
+        <div class="container">
+            <header>
+                <h1>cart</h1>
+                <div class="iconcart">
+                    <img src="cart.logo.png" alt="" height="40px" onclick="toggleCart()">
+                    <div class="totalquantity" id="quantity"></div>
+                    <div class="quant" id="quantity" onclick="toggleCart()">cart</div>
+                </div>
+            </header>
+            <div class="cart hidden" id="mydiv">
+                <h2>Cart</h2>
+                <i id="cart04" class="fa-solid fa-xmark" onclick="toggleCart()"></i>
+
+                <hr>
+                <ol id="hello"></ol>
+                <h3>checkout</h3>
+            </div>
+        </div>
+
+
+
+
+        <div class="canteen">
+
+
+            <h1 id="stt"><img src="stationary 0.2.jpg" alt="" height="80px" width="80px"><span id="st">Vits
+                    Stationery</span></h1>
+
+        </div>
+        <div class="text">
+            <h2 id="love">The only place for all your needs</h2>
+            <h3>unleash your Creativity</h3>
+        </div>
+        <div class="traditional">
+            <h2>A place where imagination meets paper</h2>
+            <span class="cc4">
+                <h3>every stroke of pen creates Timeless Experience</h3>
+                <h4>only @VitsStationery </h4>
+                <br>
+                <br><br><br>
+
+            </span>
+        </div>
+    </section>
+
+    <div class="menu">
+        <h1>Menu</h1>
+
+    </div>
+    <div id="menu">
+        <div class="menul">
+            <ul>
+                <li>
+                    <h2>Papers</h2>
+                    <h2><img src="record papers.webp" alt="" height="130px" width="200px"><br>Record papers-10/-
+                        <br><button value="add to cart"
+                            onclick="add('Record papers-10/-'); alert('This item will be added to your cart!!')"> add
+                            to
+                            cart</button></h1>
+                        <h2><img src="graphs.jpeg" alt="" height="120px" width="200px"><br> graphs - 10/-<br><button
+                                value="add to cart"
+                                onclick="add('graphs - 10/-'); alert('This item will be added to your cart!!')">add to
+                                cart</button>
+                            </h1>
+                            <h2><img src="drawing.jpeg" alt="" height="130px"><br>drawing sheets -
+                                2/-<br><button value="add to cart"
+                                    onclick="add('drawing sheets - 2/-') ;alert('This item will be added to your cart!!') ">add
+                                    to
+                                    cart</button></h1>
+                                <h2><img src="a4 sheets.jpeg" alt="" height="130px" width="200px"><br>A4 sheets
+                                    -
+                                    1/-<br><button value="add to cart"
+                                        onclick="add('A4 sheets-1/-') ;alert('This item will be added to your cart!!')">add
+                                        to
+                                        cart</button></h1>
+                                    <h2><img src="trace papers.jpeg" height="120px" width="200px" alt=""><br>trace paper
+                                        -
+                                        5/-<br><button value="add to cart"
+                                            onclick="add('Trace paper--5/-');alert('This item will be added to your cart!!')">add
+                                            to cart</button></h1>
+                                        <h2><img src="record papers.webp" height="130px" width="200px" alt=""><br>record
+                                            sheets -
+                                            2/-<br><button value="add to cart"
+                                                onclick="add('chapathi--25/-') ;alert('This item will be added to your cart!!')">add
+                                                to
+                                                cart</button></h1>
+
+
+                </li>
+            </ul>
+        </div>
+        <div class="menum">
+            <ul>
+                <li>
+                    <h2>materials</h2>
+                    <h2><img src="assessments.jpeg" alt="" height="130px" width="200px"><br>1st year -
+                        10/-
+                        <br><button value="add to cart"
+                            onclick="add('first year - 10/-') ;alert('This item will be added to your cart!!')"> add to
+                            cart</button></h1>
+                        <h2><img src="asssignment2.jpg" height="120px" width="200px" alt=""><br> 2nd year -
+                            10/-<br><button value="add to cart"
+                                onclick="add('2nd year- 10/-');alert('This item will be added to your cart!!')">add to
+                                cart</button>
+                            </h1>
+                            <h2><img src="assessments.jpeg" height="120px" width="200px" alt=""><br>3rd year -
+                                10/-<br><button value="add to cart"
+                                    onclick="add('3rd year - 10/-');alert('This item will be added to your cart!!')">add
+                                    to
+                                    cart</button></h1>
+                                <h2><img src="text book.jpeg" height="120px" width="200px" alt=""><br>4th year-
+                                    10/-<br><button value="add to cart" onclick="add('4th year - 10/-');alert('This item will be added to your cart!!')
+                                    ">add
+                                        to
+                                        cart</button></h1>
+                                    <h2><img src="assessments.jpeg" height="120px" alt=""><br>assessments -
+                                        20/-<br><button value="add to cart"
+                                            onclick="add('assessments -20/-');alert('This item will be added to your cart!!')">add
+                                            to
+                                            cart</button></h1>
+                                        <h2><img src="text book.jpeg" height="120px" width="200px" alt=""><br> textbook
+                                            -
+                                            50/-<br><button value="add to cart"
+                                                onclick="add('text book-50/-'); alert('This item will be added to your cart!!') ">add
+                                                to cart</button></h1>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="menum">
+            <button id="gotocart" value="add to cart" onclick="toggleCart()">Go
+                to cart</button>
+            <ul>
+
+                <li>
+                    <h2>records</h2>
+                    <h2><img src="assessments.jpeg" alt="" height="130px" width="200px"><br>1st year -
+                        10/-
+                        <br><button value="add to cart"
+                            onclick="add('first year - 10/-') ;alert('This item will be added to your cart!!')"> add to
+                            cart</button></h1>
+                        <h2><img src="asssignment2.jpg" height="120px" width="200px" alt=""><br> 2nd year -
+                            10/-<br><button value="add to cart"
+                                onclick="add('2nd year- 10/-');alert('This item will be added to your cart!!')">add to
+                                cart</button>
+                            </h1>
+                            <h2><img src="assessments.jpeg" height="120px" width="200px" alt=""><br>3rd year -
+                                10/-<br><button value="add to cart"
+                                    onclick="add('3rd year - 10/-');alert('This item will be added to your cart!!')">add
+                                    to
+                                    cart</button></h1>
+                                <h2><img src="text book.jpeg" height="120px" width="200px" alt=""><br>4th year-
+                                    10/-<br><button value="add to cart" onclick="add('4th year - 10/-');alert('This item will be added to your cart!!')
+                                    ">add
+                                        to
+                                        cart</button></h1>
+                                    <h2><img src="assessments.jpeg" height="120px" alt=""><br>assessments -
+                                        20/-<br>
+                                        <buttontext value="add to cart"
+                                            onclick="add('assessments -20/-');alert('This item will be added to your cart!!')">
+                                            add
+                                            to
+                                            cart</buttontext book.jpeg" height="120px" width="200px" alt=""><br>
+                                        textbook -
+                                        50/-<br><button value="add to cart"
+                                            onclick="add('text book-50/-');alert('This item will be added to your cart!!') ">add
+                                            to cart</button></h1>
+
+            </ul>
+        </div>
+    </div>
+    <div class="bg2"></div>
+    <section>
+        <div class="menu">
+            <h1>stationery</h1>
+        </div>
+        <div id="menu">
+            <div class="menul">
+                <ul>
+                    <li>
+                        <h2>pens</h2>
+                        <h2><img src="hauser pen.jpg" height="120px" width="200px" alt=""><br>hauser -
+                            10/-<br><button value="add to cart"
+                                onclick="add('hauser-10/-');alert('This item will be added to your cart!!')">add
+                                to
+                                cart</button></h1>
+                            <h2><img src="pentonic f2.jpg" height="150px" width="200px" alt=""><br>
+                                Pentonic- 10/-<br><button value="add to cart"
+                                    onclick="add('Pentonic- 10/-');alert('This item will be added to your cart!!')">add
+                                    to
+                                    cart</button>
+                                </h1>
+                                <h2><img src="flair.jpg" height="120px" width="200px" alt=""><br>flair -
+                                    5/-<br><button value="add to cart"
+                                        onclick="add('flair - 5/-');alert('This item will be added to your cart!!')">add
+                                        to
+                                        cart</button></h1>
+                                    <h2><img src="cello.jpg" height="120px" width="200px" alt=""><br>Cello - 5/-
+                                        <br><button value="add to cart"
+                                            onclick="add('Cello - 5/-');alert('This item will be added to your cart!!')">
+                                            add to
+                                            cart</button></h1>
+                                        <h2><img src="bitco.jpg" height="120px" width="200px" alt=""><br>bitco -
+                                            3/-<br><button value="add to cart"
+                                                onclick="add('bitco - 3/-');alert('This item will be added to your cart!!')">add
+                                                to
+                                                cart</button></h1>
+                                            <h2><img src="totem.webp" height="120px" width="200px" alt=""><br>totem -
+                                                5/-<br><button value="add to cart"
+                                                    onclick="add('Totem - 5/-');alert('This item will be added to your cart!!')">add
+                                                    to cart</button></h1>
+
+
+
+
+
+                    </li>
+                </ul>
+            </div>
+            <div class="menum">
+                <ul>
+                    <li>
+                        <h2>Pencils</h2>
+                        <h2><img src="apsara.webp" height="120px" width="200px" alt=""><br>Apsara - 5/-
+                            <br><button value="add to cart"
+                                onclick="add('Apsara - 5/-');alert('This item will be added to your cart!!')"> add to
+                                cart</button></h1>
+                            <h2><img src="natraj.jpeg" height="120px" width="200px" alt=""><br>
+                                Natraj - 5/-<br><button value="add to cart"
+                                    onclick="add('Natraj - 5/-');alert('This item will be added to your cart!!')">add
+                                    to
+                                    cart</button>
+                                </h1>
+                                <h2><img src="sharpener.jpeg" height="120px" width="200px" alt=""><br>sharpner - 5/-
+                                    <br><button value="add to cart"
+                                        onclick="add('sharpner - 5/-');alert('This item will be added to your cart!!')">add
+                                        to
+                                        cart</button></h1>
+                                    <h2><img src="eraser.jpeg" height="120px" width="200px" alt=""><br>Eraser -
+                                        5/-<br><button value="add to cart"
+                                            onclick="add('Eraser - 5/-');alert('This item will be added to your cart!!')">add
+                                            to
+                                            cart</button></h1>
+                                        <h2><img src="penpencil.webp" height="120px" width="200px" alt=""><br>Penpencil
+                                            - 10/-
+                                            <br><button value="add to cart"
+                                                onclick="add('Penpencil - 10/-');alert('This item will be added to your cart!!')">add
+                                                to
+                                                cart</button></h1>
+                                            <h2><img src="lids.jpg" height="120px" width="200px" alt=""><br>lids - 5/-
+                                                <br><button value="add to cart"
+                                                    onclick="add('lids - 5/-');alert('This item will be added to your cart!!')">add
+                                                    to
+                                                    cart</button></h1>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+
+
+        <div class="bg3">
+            <div class="text2">
+                <footer class="f146">
+                    <footer class="footer">
+                        <div class="col">
+                            <img src="nivi-logo-jpj.jpg" alt="logo" height="70x" width="70px">
+                            <div class="li">
+
+
+                            </div>
+
+
+                            <p id="f1">join us to make a better future</p>
+
+                        </div>
+                        <div class="links">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <hr>
+                        <p class="copy">Nivi © 2023 - All Rights Reserved</p>
+
+
+
+
+
+                    </footer>
+                </footer>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="vitstationery2104.js"></script>
+
+</body>
+
+</html>
